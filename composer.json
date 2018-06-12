@@ -1,0 +1,9 @@
+{
+  "name": "jeyroik/sm-plugin-route-from-start",
+  "description": "Plugin for jeyroik StateMachine. Just make start state more human-adopted.",
+  "autoload": {
+    "psr-4": {
+      "tratabor\\": "src/"
+    }
+  }
+}
