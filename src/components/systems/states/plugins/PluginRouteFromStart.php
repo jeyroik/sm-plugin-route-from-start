@@ -2,7 +2,8 @@
 namespace jeyroik\extas\components\systems\states\plugins;
 
 use jeyroik\extas\components\systems\Plugin;
-use jeyroik\extas\interfaces\systems\states\IStatesRoute;
+
+use jeyroik\extas\interfaces\systems\states\extensions\IStatesRoute;
 use jeyroik\extas\interfaces\systems\states\plugins\IPluginRouteFrom;
 
 /**
@@ -13,6 +14,8 @@ use jeyroik\extas\interfaces\systems\states\plugins\IPluginRouteFrom;
  */
 class PluginRouteFromStart extends Plugin implements IPluginRouteFrom
 {
+    public $preDefinedStage = IStatesRoute::STAGE__FROM;
+
     /**
      * @param IStatesRoute $route
      * @param $fromStateId

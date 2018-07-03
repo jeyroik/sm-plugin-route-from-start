@@ -1,0 +1,11 @@
+{
+  "title": "Route from start",
+  "schema": "1.0",
+  "plugins": [
+    {
+      "class": "jeyroik\\extas\\components\\systems\\states\\plugins\\PluginRouteFromStart",
+      "stage": "route.from"
+    }
+  ],
+  "extensions": []
+}
