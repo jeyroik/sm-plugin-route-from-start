@@ -1,5 +1,6 @@
 {
-  "title": "Route from start",
+  "title": "Route from start.",
+  "description": "Add start state for states route",
   "schema": "1.0",
   "plugins": [
     {

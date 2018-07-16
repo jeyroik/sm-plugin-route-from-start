@@ -1,6 +1,9 @@
 {
   "name": "jeyroik/sm-plugin-route-from-start",
   "description": "Plugin for jeyroik StateMachine. Just make start state more human-adopted.",
+  "require": {
+    "jeyroik/sm-plugin-states-route": "*"
+  },
   "autoload": {
     "psr-4": {
       "jeyroik\\extas\\": "src/"
